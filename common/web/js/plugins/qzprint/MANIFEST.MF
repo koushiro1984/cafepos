@@ -1,0 +1,144 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.1
+X-COMMENT: Main-Class will be added automatically by build
+Application-Library-Allowable-Codebase: *
+Application-Name: QZ Print Plugin
+Class-Path: lib/jssc_qz.jar lib/pdf-renderer_qz.jar lib/plugin.jar
+Permissions: all-permissions
+Created-By: 1.7.0_51-b13 (Oracle Corporation)
+Caller-Allowable-Codebase: *
+Main-Class: qz.Main
+Codebase: *
+
+Name: qz/json/JSONString.class
+SHA-256-Digest: KAMdsRjCZU/z4fzrJpN4Wq0mgKEfIh/enOzA0UnPRFY=
+
+Name: qz/exception/SerialException.class
+SHA-256-Digest: icT0h71i2jTrN2guHZ1/QNkc0IB6B2K+y9L888ROCeM=
+
+Name: qz/exception/NullPrintServiceException.class
+SHA-256-Digest: F+P2vOSPOAp2xDX+7aFR8NIUkyFq12scQSXGuTFoZt4=
+
+Name: qz/LanguageType$1.class
+SHA-256-Digest: Jq9cJDnvyp73ldW08vG6kEInpgQ2nmzvxRp4mez/Ais=
+
+Name: qz/ImageWrapper$1.class
+SHA-256-Digest: FDwcbcdMSFGMUjMPTagTXYzSjjxQ4eaJcdqwk4I2bZk=
+
+Name: qz/json/JSONStringer.class
+SHA-256-Digest: iidRiyhYvnEmCbj/9PTzo+2Ck4EcLmRJq7NMnYrHZd4=
+
+Name: qz/LogIt.class
+SHA-256-Digest: px8a9jPmmqFTWBgXgchSjIcBg6ZIilmzp8oYv9ObGF8=
+
+Name: JNLP-INF/APPLICATION.JNLP
+SHA-256-Digest: 3baJwMq+ml3OLEQ+Phfb6VxrgdtgaivrOJ1O4WkSSiQ=
+
+Name: qz/NetworkUtilities.class
+SHA-256-Digest: /mMRC18cPBFSKQY5k7WgrUn1M42kqYBH6ahrBFjfCgE=
+
+Name: qz/PaperFormat.class
+SHA-256-Digest: tLQMuaFijfvSiG8BE+Vkfea19dRXAPqd3jLKp7IVjRw=
+
+Name: qz/json/JSONWriter.class
+SHA-256-Digest: Do2/QMc3r1V5w4Tvw6iQxT05styE8szHODDCbVK1jvc=
+
+Name: qz/ByteUtilities.class
+SHA-256-Digest: rKrr9AqyOBZKOgq5lzHeuGcPjQQiQ3CvdikgSH9A5JI=
+
+Name: qz/SerialIO.class
+SHA-256-Digest: zgK5xe6NuulhFHp1pfPgrbc21MOqUlIpAWPOLaLEu+w=
+
+Name: qz/reflection/ReflectException.class
+SHA-256-Digest: 0Qrv1XMbEBPiWPHSgnCLMc/g9E5+/nLveRexLgWG2lw=
+
+Name: qz/PrintServiceMatcher.class
+SHA-256-Digest: IKnBYjodIXJ1hjzLri0h0v4BJJAfQunWXystEmrNDl8=
+
+Name: qz/exception/InvalidRawImageException.class
+SHA-256-Digest: x7xwJtLcG4DdC6oqAs6yg7vpPeo5T4oUG9NWm9++MvU=
+
+Name: qz/Base64$OutputStream.class
+SHA-256-Digest: LAWBZffUqh7xIsra/LIrPUP7NvT6aXLbUbHLCHPqjm4=
+
+Name: qz/json/JSONObject$Null.class
+SHA-256-Digest: dAYd9akFtQ7DYtnQ0bk19L8BBUo1egwqvKf+b6NzEWM=
+
+Name: qz/LanguageType.class
+SHA-256-Digest: kuQTXeaNWMGtvWcTxUpRmQCrdWeBb9xL2A5s1zc4DZw=
+
+Name: qz/json/JSONException.class
+SHA-256-Digest: YbZTCedxeGmhpI5lzDNt70CZsDIIevvUKVHqx6Goh9A=
+
+Name: qz/RawPrintApplet.class
+SHA-256-Digest: Hli9Qpnfb5wYMmnTNgmnjOHFYwY7aN+yhPFq5ujWvkM=
+
+Name: qz/json/JSONTokener.class
+SHA-256-Digest: 458yuvA/B2F6iH62fS7zXSlrQhYNriAeK/WjllyorXQ=
+
+Name: qz/Main.class
+SHA-256-Digest: B+sBIe/E/5jitylaLiQFv11n1GsirCR+9bD0eBphcRI=
+
+Name: qz/json/JSONObject.class
+SHA-256-Digest: j/C2GitzPFxIjquLktWFq/72PXqvYYrj6cZWmQsx/PQ=
+
+Name: qz/exception/InvalidFileTypeException.class
+SHA-256-Digest: 3SAanYqo7nZ6663IcrJc7e0au9ZGFZ1qp+zy+1JGCHU=
+
+Name: qz/json/JSONArray.class
+SHA-256-Digest: UpcrHuR+w2y1KSRBigj1KA2iwGwdEOp49o9y5SOqujw=
+
+Name: qz/exception/NullCommandException.class
+SHA-256-Digest: 49BcFvNQvkW69UC+bJ4sWdOKlDhIymvznMuiWX/fZoo=
+
+Name: qz/PrintApplet$1.class
+SHA-256-Digest: xvYZUldGuo160ITKQGxaV589RGOzewVdtCSdEKCeVFs=
+
+Name: qz/reflection/Reflect.class
+SHA-256-Digest: bEunYKE3IQ1vY7NIryYLiocsbnFGXqyJ3/wAqimT00o=
+
+Name: qz/SerialUtilities.class
+SHA-256-Digest: HM0KsTLi9ZB73fXg+DLrcMHF4eFWn1lnizhx7gjPS0Q=
+
+Name: qz/PrintRaw$1.class
+SHA-256-Digest: yeyc4XSC1bOpxxT2jUSwsOtQ79JDLD2b2maTvQ/RUik=
+
+Name: qz/PrintPostScript.class
+SHA-256-Digest: 21Pg0dB5jcc6chq6UVsn9DPGysx9qXrQHXUBcA1SIBY=
+
+Name: qz/ImageWrapper.class
+SHA-256-Digest: oxRSGxzlELJdeOcAI6RIFdJ9mVEqOH4RwChdbgzOnmY=
+
+Name: qz/PrintHTML.class
+SHA-256-Digest: OdniIliAcS7oNNussff7426UR3dyrKwOUo7WN9uiFsw=
+
+Name: qz/ByteArrayBuilder.class
+SHA-256-Digest: /BxSLuwGMp4re6DRALNrsJkObixLGkt0D10ZJ5HKDsI=
+
+Name: qz/json/JSONObject$1.class
+SHA-256-Digest: pJEE7VoHyQpAs9V5uab1QNUx0W4WXtN0CXbUSeQobG0=
+
+Name: qz/Base64$InputStream.class
+SHA-256-Digest: J68tM+H7LYhM6oCsO/op19EBa6ndwoW0yCsf3pzyjLM=
+
+Name: qz/SerialIO$1.class
+SHA-256-Digest: 6JccQTrYvVfHzGEbJ1a8F44hNBFPCdhLasML2IvE/zk=
+
+Name: qz/reflection/Reflect$1.class
+SHA-256-Digest: SHpQho92Wt+0HiYYNuEFyV61fYoUwEic10jqByZbA1M=
+
+Name: qz/PrintRaw.class
+SHA-256-Digest: x/QQqNtm3v5iRlWSlHUcr2cAXJiwGTi7I0+qeK+OumQ=
+
+Name: qz/Base64.class
+SHA-256-Digest: QVISLDMlyittJvCf/Obe/T5swTGxbrybOUkUM0Fyy4Y=
+
+Name: qz/PrintApplet.class
+SHA-256-Digest: kcP4AYzSJqIeBoRmJk9kvG+IVraqx8fytw4MZcH5hzM=
+
+Name: qz/FileUtilities.class
+SHA-256-Digest: 5YLOXMRrRMyF69iwMUgymx484ZwZv99utRkFVtBvFa8=
+
+Name: META-INF/INDEX.LIST
+SHA-256-Digest: 9cc/ZoB8bUXd1CEbL03WuGmEgsLwFPveSpuToLCcFCA=
+

@@ -1,0 +1,199 @@
+svg text { 
+    font-family: FontAwesome; 
+}
+
+.single-page-header-text {
+    position: absolute;
+    top: 330px;
+    width: 100%;
+    text-align: center;
+    z-index: 997;
+}
+
+.single-page-header-text .tilt-left {
+    transform: rotate(-4deg);
+}
+
+.single-page-header-text .header-texts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+
+.single-page-header-text .tlt {	
+    overflow: hidden;
+    font-family: "Aguafina Script";
+    margin: -100px 0 0 -120px;
+    padding: 100px 0;
+}
+
+.single-page-header-text .tlt span {
+    font-size: 132px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    text-transform: none;
+}
+
+.single-page-header-text .tlt span[class^="char"] {
+    padding: 0 60px;			/* Added padding to stop clipping of text */
+    margin-right: -120px;		/* Pull the text back into the center. See above */
+}
+
+.header-text-pre-slogan {
+    display: inline;
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 2px 8px 4px 12px;
+    background: #000;
+    -webkit-box-shadow: 0 0 0 5px rgba(100,42,0,0.40);
+    -moz-box-shadow: 0 0 0 5px rgba(100,42,0,0.40);
+    box-shadow: 0 0 0 5px rgba(100,42,0,0.40);
+}
+
+.header-text-pre-slogan em { 
+    font-style: normal; 
+}
+
+.header-text-divider {
+    width: 70px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -35px;
+    background-image: url(../img/header-text-divider.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70px 24px;
+}
+
+/* Tablet Only */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .single-page-header-text .tlt span {
+        font-size: 86px;
+        line-height: 94px;
+    }
+}
+
+/* Mobile Only */
+@media screen and (max-width: 767px) {
+    .single-page-header-text { 
+        top: 220px; 
+    }
+
+    .single-page-header-text .tlt span {
+        font-size: 48px;
+        line-height: 52px;
+        margin: 0;
+    }
+
+    .header-text-pre-slogan { 
+        display: none; 
+    }
+
+    .header-text-divider { 
+        display: none; 
+    }
+}
+
+i.sans {
+    font-family: sans-serif;
+}
+
+/*--------------------------------------------------------------------------
++	Testimonials Style
+--------------------------------------------------------------------------*/
+.testimonial {
+    margin-bottom: 60px; 
+}
+.testimonial blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: none;
+}
+.testimonial blockquote p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.testimonial blockquote i {
+    color: #ff6c00;
+    font-size: 20px;
+}
+.testimonial .testimonial-bubble {
+    text-align: justify;
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 4px;
+    -moz-background-clip: padding;
+    border-radius: 4px;
+    background-clip: padding-box;
+    padding: 0 20px 20px 20px;
+    margin: 35px 10px 20px 10px;
+    background: #FFF;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    -moz-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    color: inset 0 1px #fff,0 1px 2px #c8cfe6;
+}
+.testimonial .testimonial-bubble::before {
+    background-color: #FFF;
+    content: "\00a0";
+    display: block;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    left: 45%;
+    position: relative;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.testimonial .author-photo {
+    text-align: center;
+}
+.testimonial .author-photo img {
+    margin: auto;
+    border: 5px solid #FFF;
+    -webkit-border-radius: 100px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 100px;
+    -moz-background-clip: padding;
+    border-radius: 100px;
+    background-clip: padding-box;
+    -webkit-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    -moz-box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    box-shadow: inset 0 1px #fff,0 1px 2px #c8cfe6;
+    color: inset 0 1px #fff,0 1px 2px #c8cfe6;
+}
+.testimonial .author-info {
+    font-family: "nexa_rust_sansblack";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.testimonial .author-info span {
+    color: #ff6c00;
+}
+
+
+.bg-white {
+    background-color: white;
+}
